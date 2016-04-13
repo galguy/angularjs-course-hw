@@ -1,0 +1,1 @@
+module.exports = require("github:angular-ui/bower-ui-grid@3.1.1/ui-grid");

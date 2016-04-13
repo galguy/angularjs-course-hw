@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>AngularJS Homework Assignment</title>
+</head>
+
+<body ng-app="hwApp">
+  <md-tabs md-dynamic-height md-border-bottom>
+    <md-tab label="Data">
+      <md-content class="md-padding">
+        <my-viewer></my-viewer>
+      </md-content>
+    </md-tab>
+    <md-tab label="Analysis">
+      <md-content class="md-padding">
+      </md-content>
+    </md-tab>
+    <md-tab label="Monitor">
+      <md-content class="md-padding">
+      </md-content>  
+    </md-tab>
+  </md-tabs>
+<script type="text/javascript" src="jspm_packages/system.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript">
+	System.import('./app.mdl');
+</script>
+</body>
+</html>
